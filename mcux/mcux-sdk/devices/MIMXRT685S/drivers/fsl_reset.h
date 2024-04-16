@@ -155,6 +155,10 @@ typedef enum _RSTCTL_RSTn
     {                        \
         kMRT0_RST_SHIFT_RSTn \
     } /* Reset bits for MRT peripheral */
+#define MU_RSTS            \
+    {                      \
+        kMU_RST_SHIFT_RSTn \
+    } /* Reset bits for MU peripheral */
 #define PINT_RSTS            \
     {                        \
         kPINT_RST_SHIFT_RSTn \
